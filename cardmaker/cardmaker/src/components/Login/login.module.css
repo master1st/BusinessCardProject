@@ -1,0 +1,5 @@
+@value makerBlack from './common/colors.css';
+
+.card_mid{
+    background-color : makerBlack;
+}

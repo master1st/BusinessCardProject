@@ -1,0 +1,6 @@
+@value makerColorful from './common/colors.css';
+
+
+.card_bottom{
+    background-color: makerColorful;
+}
