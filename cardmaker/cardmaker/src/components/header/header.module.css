@@ -4,3 +4,8 @@
 .card_top{
     background-color: makerColorful;
 }
+.card_top_icon{
+    width:500px;
+    height: 500px;
+    background-color: aqua;
+}
