@@ -1,6 +1,12 @@
-@value makerColorful from './common/colors.css';
+.bottom {
+    text-align:center;
+    width:18.4em;
+    background-color:rgb(180, 40, 40);
+    
+}
 
-
-.card_bottom{
-    background-color: makerColorful;
+.text {
+    color: white;
+    font-size: 0.8rem;
+    margin:10px 0px 10px 0px
 }

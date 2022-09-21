@@ -1,11 +1,23 @@
-@value makerColorful from './common/colors.css';
-
 
 .card_top{
-    background-color: makerColorful;
+    text-align:center;
+    background-color:rgb(180, 40, 40);
 }
-.card_top_icon{
-    width:500px;
-    height: 500px;
-    background-color: aqua;
+.logo{
+    width:4em;
+    background-color:black;
+    outline-style: none;
+}
+
+.text{
+    margin:0 0 0 0px;
+    font-size:1.5rem;
+    color:aliceblue;
+    padding: 0.2rem 2.4rem 0.2rem 2.4rem;
+}
+
+.logout{
+    position:absolute;
+    transform: translate(100%,0%);
+    
 }

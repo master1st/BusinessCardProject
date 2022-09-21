@@ -1,5 +1,41 @@
-@value makerBlack from './common/colors.css';
+li{
+    list-style: none;
+}
 
-.card_mid{
-    background-color : makerBlack;
+
+
+.box {
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.Login_icon{
+    display:flex;
+    flex-direction: column;
+    padding: 0;
+}
+.button {
+    width:21.1em;
+    border:2px solid black;
+    border-radius : 10% / 50%;
+    margin: 0.4rem 0.4rem 0.4rem 0.4rem;
+    padding : 5px 5px 5px 5px;
+    background-color: white;
+}
+
+.text {
+    margin: 0.2rem 0.2rem 0.2rem 0.2rem;
 }

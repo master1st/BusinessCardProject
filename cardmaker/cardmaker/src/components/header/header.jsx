@@ -1,11 +1,11 @@
 import React from 'react';
+import styles from './header.module.css';
+const Header = (onLogout) => (
+    <div className={styles.card_top}>
+        <img className={styles.logo} src='/images/logo.png'></img>
+        <button className={styles.logout} onLogout={onLogout}>Logout</button>
+        <p className={styles.text}>Business Card Maker</p>
+    </div>
+);
 
-function Header() {
-    return (
-        <div className="card_top">
-            <img className="card_top_icon" src ='../../img/logo.png'></img>
-            <p className="card_top_text">Code your dream</p>
-        </div>
-    );
-};
-export default Header; 
+export default Header;
