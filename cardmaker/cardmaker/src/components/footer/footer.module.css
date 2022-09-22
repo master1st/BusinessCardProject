@@ -1,6 +1,5 @@
 .bottom {
     text-align:center;
-    width:18.4em;
     background-color:rgb(180, 40, 40);
     
 }
@@ -8,5 +7,5 @@
 .text {
     color: white;
     font-size: 0.8rem;
-    margin:10px 0px 10px 0px
+    margin:0.6rem 6.6rem 0.6rem 6.6rem;
 }
