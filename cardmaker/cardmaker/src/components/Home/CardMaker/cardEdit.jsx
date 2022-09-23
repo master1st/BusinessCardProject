@@ -1,7 +1,7 @@
 import React, { startTransition } from "react";
 import { useState } from "react";
 import styles from './card.module.css';
-const Card = () => {
+const CardEdit = () => {
   const [profile, setprofile] = useState();
 
   return (
@@ -36,4 +36,14 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default CardEdit;
+
+/*Json 으로 데이터 던질까, object 더미데이터로 그냥 보낼까. 
+Card Maker에 전달하라는 것은, 그안에 컴포넌트를 형성해서 만들라는건가. 
+const [movies, setMovies] = useState([
+  {title: 'Harry Potter1', year: 2001},
+  {title: 'Harry Potter2', year: 2002},
+  {title: 'Harry Potter3', year: 2003},
+  {title: 'Harry Potter4', year: 2004},
+]);
+*/
