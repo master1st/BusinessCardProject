@@ -13,15 +13,22 @@ const Login = ({ authService }) => {
             state: {id: userId},
         });
     };
-    
+    const onLogout = (event) => {
+        authService
+        .logout();
+    }
+
+
     const onLogin = (event) => {
         authService
             .login(event.currentTarget.textContent)
             .then((data) => {goToMaker(data.user.uid)});
             };
+
+
     return (
         <section className={styles.box}>
-            <Header />
+            <Header Logout={onLogout}/>
             <section className={styles.Login}>
                 <h1 className={styles.text}>Login</h1>
                 <ul className={styles.Login_icon}>
