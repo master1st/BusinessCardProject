@@ -1,5 +1,5 @@
 .box {
+    height: 100%;
     text-align: center;
     flex-basis: 50%;
-    background-color: palegreen;
 }

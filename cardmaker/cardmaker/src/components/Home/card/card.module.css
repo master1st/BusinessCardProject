@@ -1,0 +1,34 @@
+
+.card {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.cardtext{
+    width:100%;
+    border:5rem;
+    display:flex;
+    flex-direction: column;
+    text-align: start;
+    padding:0rem 4rem 0rem 0rem;
+    
+}
+.text {
+    margin:2px;
+    font-size:0.8rem;
+}
+
+.br{
+    background-color:black;
+    height:1px;
+    width:100%;
+}
+.cardimg {
+    padding:3rem;
+    display:inline-block;
+    width:10rem;
+    height:10rem;
+
+}
