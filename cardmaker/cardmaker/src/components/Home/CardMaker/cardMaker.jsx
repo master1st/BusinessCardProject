@@ -1,7 +1,9 @@
 import React, { useEffect } from "react";
 import styles from "./cardMaker.module.css";
-import Card from "./cardEdit";
 import CardPreview from "../CardPreview/cardPreview";
+import CardEdit from '../cardEdit/cardEdit';
+import Header from "../../header/header";
+import Footer from "../../footer/footer";
 import { useState } from "react";
 const CardMaker = () => {
   const [cardData, setcardData] = useState([
@@ -45,15 +47,14 @@ const CardMaker = () => {
 
   return (
     <section className={styles.box}>
-      <h1>Card Maker</h1>
-      <CardPreview cards={cardData} />
+      <Header />
+      <div className={styles.mid_box}>
+        <CardEdit />
+        <CardPreview carddata={cardData}/>
+      </div>
+      <Footer />
     </section>
   );
 };
 
 export default CardMaker;
-
-//textfield 2개, 색상 선택 1개,
-//textfield 2개
-//textfield 1개
-//btn 2개

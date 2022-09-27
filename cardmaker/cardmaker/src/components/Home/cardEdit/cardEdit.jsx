@@ -1,17 +1,17 @@
 import React, { startTransition } from "react";
 import { useState } from "react";
-import styles from './card.module.css';
+import styles from './cardEdit.module.css';
 const CardEdit = () => {
   const [profile, setprofile] = useState();
 
   return (
     <section className={styles.section}>
-      <div className={styles.first_text}>
+      <span className={styles.first_text}>
         <input type="text" name="member_name"></input>
         <input type="text" name="member_name"></input>
-        <div class={styles.dropdown}>
+        <span class={styles.dropdown}>
           <button class={styles.dropdown_btn}>Real Estate Type</button>
-          <div class={styles.dropdown_submenu}>
+          <span class={styles.dropdown_submenu}>
             <a href="#none">All</a>
             <a href="#none">One room</a>
             <a href="#none">1.5 rooms</a>
@@ -19,9 +19,9 @@ const CardEdit = () => {
             <a href="#none">Three rooms</a>
             <a href="#none">Officetel</a>
             <a href="#none">Apartment</a>
-          </div>
-        </div>
-      </div>
+          </span>
+        </span>
+      </span>
 
       <div className={styles.second_text}>
         <input type="text" name="member_name"></input>
@@ -37,13 +37,3 @@ const CardEdit = () => {
 };
 
 export default CardEdit;
-
-/*Json 으로 데이터 던질까, object 더미데이터로 그냥 보낼까. 
-Card Maker에 전달하라는 것은, 그안에 컴포넌트를 형성해서 만들라는건가. 
-const [movies, setMovies] = useState([
-  {title: 'Harry Potter1', year: 2001},
-  {title: 'Harry Potter2', year: 2002},
-  {title: 'Harry Potter3', year: 2003},
-  {title: 'Harry Potter4', year: 2004},
-]);
-*/

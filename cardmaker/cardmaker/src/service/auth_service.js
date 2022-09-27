@@ -8,9 +8,10 @@ class AuthService {
     }
     logout() {
         firebase.auth().signOut().then(() => {
-            console.log("Sign-out successful");
+            alert("로그아웃 되었습니다.");
+            window.location.href ="http://localhost:3000/"
           }).catch((error) => {
-            console.log(error);
+            alert(`로그인 실패 ${error}`);
           });
     }
 }
