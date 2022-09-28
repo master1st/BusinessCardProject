@@ -1,6 +1,10 @@
 .box {
+    background-color:white;
     height: 100%;
     text-align: center;
     flex-basis: 50%;
+}
+.card{
+    padding:2rem;
 }
 

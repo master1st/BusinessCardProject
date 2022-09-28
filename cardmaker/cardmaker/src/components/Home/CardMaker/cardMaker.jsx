@@ -49,7 +49,7 @@ const CardMaker = () => {
     <section className={styles.box}>
       <Header />
       <div className={styles.mid_box}>
-        <CardEdit />
+        <CardEdit carddata={cardData} />
         <CardPreview carddata={cardData}/>
       </div>
       <Footer />

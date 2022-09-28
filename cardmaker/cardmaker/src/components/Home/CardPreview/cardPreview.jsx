@@ -9,7 +9,7 @@ const CardPreview = (props) => {
       <h1>Card Preview</h1>
       <div>
       {cards.map((card) => 
-        <div key={card.id}>
+        <div className={styles.card} key={card.id}>
           <Card card={card}/>
         </div>
       )}
