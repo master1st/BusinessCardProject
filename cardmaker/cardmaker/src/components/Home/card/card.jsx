@@ -3,7 +3,7 @@ import styles from './card.module.css';
 const Card = (props) => {
     const {id, backgroundColor, company, email, fileName, fileUrl,
     introduction, major, name } = props.card;
-    console.log(props.card);
+    // console.log(props.card);
     return (
         <section className={styles.card} style={{ 
             backgroundColor: `${backgroundColor}`

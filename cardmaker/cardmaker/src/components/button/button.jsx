@@ -4,7 +4,7 @@ const Button = () => {
     return (
         <section className={styles.section}>
             <button className={styles.fileupload}>file upload</button>
-            <button className={styles.button}>click me!</button>
+            <input type="submit" value="click me!"className={styles.button}></input>
         </section>
     );
 };
