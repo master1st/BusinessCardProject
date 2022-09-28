@@ -3,9 +3,19 @@
     display:flex;
     width: 100%;
     }
-.button{
+
+.fileupload, .button{
     width:100%;
     flex-basis: 1 1 40%;
+    padding: 0.5rem;
+    border: 1px solid black;
   }
+.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.fileupload {
+    background-color:sandybrown;
 
-
+}

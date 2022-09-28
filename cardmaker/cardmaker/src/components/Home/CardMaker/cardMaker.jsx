@@ -50,6 +50,7 @@ const CardMaker = () => {
       <Header />
       <div className={styles.mid_box}>
         <CardEdit carddata={cardData} />
+        <div className={styles.mid_contour}></div>
         <CardPreview carddata={cardData}/>
       </div>
       <Footer />

@@ -2,20 +2,20 @@
   display:flex;
   width: 100%;
   flex-wrap:wrap;
-  padding : 1rem;
 }
 
 .input, .select{
   width:100%;
+  padding:0.5rem;
   flex: 1 1 30%;
 }
 
 
-.fileinput {
+.second_input {
   width:100%;
+  padding:0.5rem;
   flex: 1 1 40%;
 }
-
 
 .textarea{
   flex-basis: 100%;

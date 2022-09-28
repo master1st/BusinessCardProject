@@ -16,8 +16,8 @@ const Editor = (props) => {
           <option value="dark">Dark</option>
           <option value="colorful">Colorful</option>
         </select>
-        <input className={styles.fileinput} type="text" name="title" value={major} />
-        <input className={styles.fileinput} type="text" name="email" value={email} />
+        <input className={styles.second_input} type="text" name="title" value={major} />
+        <input className={styles.second_input} type="text" name="email" value={email} />
         <textarea className={styles.textarea} name="introduction" value={introduction}></textarea>
         <Button />
       </form>
