@@ -10,7 +10,7 @@ const Editor = (props) => {
   let id_cnt = 1;
     const handleSubmit = (e,form) => {
       e.preventDefault();
-      setValues({...values, [values.id]: values.id++})
+      setValues({...values, ['id']: values.id+1})
       console.log(values);      
     }
 
